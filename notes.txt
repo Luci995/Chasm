@@ -4,16 +4,32 @@ server side
 -filezilla
 -putty
 
+back to top button
+android
 burger
 webcam
 loader
+optimization
+security
 scroll indicator
 checkout form
 login form
+contact form
 slideshow
+galery
 hower drops
 click drops
 fixed sidebars
 modal
 lightbox
 slodeshow galery
+
+
+accounts
+db basics
+js basics
+
+farmeworks
+
+
+webcam flip thingy
