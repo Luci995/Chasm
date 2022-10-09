@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- Comment -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico" >
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>WebDevNotes</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Chasm">
+    <meta name="description" content="web dev notes">
+    <meta name="keywords" content="notes, html, css, web dev">
+    <link rel="stylesheet" href="css/style.css"> <!-- ../ is to go back a folder -->
+</head>
+
+<body>
+    <H1>title h1</H1>
+    <H3>title h3</H3>
+    <H6>title h6</H6>
+
+    <div id="parentDivExample">
+        <center><h1 id="titleForExampleContent">Title for example content</h1></center>
+        <div class="paragraph">
+            <p>Some example text. Some example text. Some example text. Some example text. </p>
+            <p>Some example text. Some example text. Some example text. Some example text. </p>
+            <p>Some example text. Some example text. Some example text. Some example text. </p>
+        </div>
+        <div class="otherTextContent">
+            <h1>Other Example Text Title</h1>
+            <a>Some example text. Some example text. Some example text. Some example text.</a></br></br>
+            <a>Some example text. Some example text. Some example text. Some example text.</a></br>
+            <a>Some example text. Some example text. Some example text. Some example text.</a></br>
+            <a id="steamProfileLink" href="https://steamcommunity.com/id/Sazzles/">My steam profile</a></br>
+        </div>
+    </div>
+    <div class="list">
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+            <li>Item 5</li>
+        </ul>
+        <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+            <li>Item 5</li>
+        </ol>
+    </div>
+
+    <div class="navbarDiv">
+        <Ul>
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Contact</li>
+            <li>News</li>
+        </Ul>
+    </div></br></br></br>
+
+    <div class="navbarWrapper">
+        <div class="actualNavbarWrapper">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#aboutUs">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li id="activeList"><a class="active" href="?">Login</a></li>
+            </ul>
+        </div>
+        <div id="contentWrapper">
+            <div id="home">
+                <img src="https://i.pinimg.com/564x/c0/32/48/c0324886265f810ae3c8ff9296a7fe76.jpg" alt="Doggo in the box">
+                <img src="/img/mus.jpg" alt="mus">
+                <img src="/img/cat.png" alt="cat">
+            <div id="aboutUs">
+                <h1>This is us</h1>
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/DRHNWCmF3_0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></br>
+                <video controls>
+                    <source src="videos/thisisus.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div id="contact">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d43000.51577160861!2d9.58363570965812!3d47.65465603795387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479b078e5691c435%3A0x1debb378dfe8407c!2s88069%20Tettnang!5e0!3m2!1sen!2sde!4v1665337202064!5m2!1sen!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></br></br>
+            <a href="/share/egg.mp4" download="egg.mp4"><button type="button">Download</button></a></br></br>
+        
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropButton">Dropdown</button>
+            <div class="dropdownContent">
+                <a href="https://www.youtube.com/watch?v=p09i_hoFdd0&ab_channel=ServetGulnaroglu">YT link 1</a>
+                <a href="https://www.youtube.com/watch?v=-5wpm-gesOY&ab_channel=Computerphile">YT link 2</a>
+                <a href="https://www.youtube.com/watch?v=I0-izyq6q5s&ab_channel=SebastianLague">YT link 3</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

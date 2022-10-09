@@ -1,0 +1,164 @@
+body { /* */
+    background-color: rgb(46, 41, 41);
+    color: bisque; /* This changes color of the content inside of the entire body tag.*/
+}
+
+h1 {
+    color: aqua;
+}
+
+#parentDivExample {
+    margin: 0;
+}
+
+#titleForExampleContent {
+    color: blueviolet;
+}
+
+.paragraph {
+    background-color: black;
+    text-align: center;
+    outline: 3px solid red;
+}
+
+.otherTextContent {
+    background-color: black;
+    text-align: center;
+    outline: 3px dashed red;
+}
+
+.otherTextContent h1 {
+    color: blueviolet;
+}
+
+.otherTextContent a {
+    color: aqua;
+}
+
+#steamProfileLink {
+    color: darkgreen;
+    text-decoration: none;
+}
+
+#steamProfileLink:hover {
+    color: red;
+}
+
+.list ul {
+    list-style-type: none;
+}
+
+.navbarDiv {
+    border: 5px dotted red;
+}
+
+.navbarDiv ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbarDiv ul li {
+    display: inline;
+    border: 3px solid blue;
+    background-color: aquamarine;
+    color: blueviolet;
+}
+
+.navbarDiv ul li:hover {
+    background-color: red;
+}
+
+.navbarDiv ul li:active {
+    background-color: green;
+}
+
+.navbarWrapper {
+    background-color: white;
+    min-height: 200px;
+    border: 3px solid red;
+}
+
+.navbarWrapper ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+.navbarWrapper ul li {
+    float: left;
+}
+
+.navbarWrapper ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+}
+
+.navbarWrapper ul li a:hover:not(.active) {
+    background-color: #aaa;
+}
+
+.active {
+    background-color: green;
+}
+
+#activeList {
+    float: right;
+}
+
+#home img {
+    width: 100%;
+    height: 300px;
+}
+
+#aboutUs video {
+    width: 600px;
+    height: 400px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    min-height: 300px;
+}
+
+.dropButton {
+    background-color: green;
+    color: aqua;
+    padding: 16px;
+    border: none;
+    font-size: 16px;
+}
+
+.dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: forestgreen;
+    min-width: 160px;
+    z-index: 1;
+    box-shadow: 0px 7px 14px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdownContent a {
+    color: red;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdownContent a:hover {
+    background-color: aqua;
+}
+
+.dropdown:hover .dropdownContent {
+    display: block;
+}
+
+.dropdown:hover .dropButton {
+    background-color: blue;
+}

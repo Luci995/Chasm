@@ -1,0 +1,19 @@
+teamwork stuff
+-git
+server side
+-filezilla
+-putty
+
+burger
+webcam
+loader
+scroll indicator
+checkout form
+login form
+slideshow
+hower drops
+click drops
+fixed sidebars
+modal
+lightbox
+slodeshow galery
